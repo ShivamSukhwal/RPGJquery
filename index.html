@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>WWE Fatal 4-Way</title>
-    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/Rpgstyle.css" />
     <script
       type="text/javascript"
       src="https://code.jquery.com/jquery-2.2.0.min.js"
@@ -15,5 +15,42 @@
       src="assets/javascript/wweJavascript.js"
     ></script>
   </head>
-  <body></body>
+  <body>
+    <div class="main-section-title">WWE Battle For The Belt!</div>
+    <div id="main-game-section">
+      
+      <div id="characters-section">
+        <div class="section-title">Select Your Wrestler</div>
+        <div id="character-area"></div>
+      </div>
+
+    
+      <div id="selected-character-section">
+        <div class="section-title">Your Character</div>
+     
+        <div id="selected-character"></div>
+      </div>
+
+     
+      <div id="available-to-attack-section">
+        <div class="section-title">Pick Your Opponent</div>
+      </div>
+
+      <div class="section-title">Fight Section</div>
+      <div id="fight-section">
+        <button id="attack-button" style="display: none;">Attack</button>
+      </div>
+
+      <div id="action">
+        <div class="character-section">
+          <div class="section-title">Opponent</div>
+
+          <div id="defender"></div>
+        </div>
+      </div>
+
+
+    <div id="game-message"></div>
+    <button id="reset-button" style="display: none;">Reset Game</button>
+  </body>
 </html>
